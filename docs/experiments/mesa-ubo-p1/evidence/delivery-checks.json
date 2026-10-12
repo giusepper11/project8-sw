@@ -1,0 +1,31 @@
+[
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--cached",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "bash",
+      "tools/check_patch_series.sh"
+    ],
+    "exit_code": 0,
+    "stdout": "clean: 16 patches listed exactly once\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "bash",
+      "tools/check_no_game_content.sh"
+    ],
+    "exit_code": 0,
+    "stdout": "== checking 180 publishable files (tracked and non-ignored) ==\nclean\n",
+    "stderr": ""
+  }
+]
