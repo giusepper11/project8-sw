@@ -1,0 +1,596 @@
+[
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.952432+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "3393f2615deb7e8ac11ce51d2cd0e9defded5669\n",
+    "output_sha256": "41fb5c0c9c146713c5eda74973990151ab0cb8948644b94ea33ab53003e2d77b"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.952666+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "?? docs/experiments/\n",
+    "output_sha256": "6633f788e5c4a6743e95ac9134d782092635d3ad692a8c9b971db8d6339bf53b"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.952800+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "origin\thttps://github.com/giusepper11/project8-sw.git (fetch)\norigin\thttps://github.com/giusepper11/project8-sw.git (push)\nupstream\thttps://github.com/R-drg/project8-sw.git (fetch)\nupstream\thttps://github.com/R-drg/project8-sw.git (push)\n",
+    "output_sha256": "3101a2ad64ee3345a671ad16a15a2b054eafc37c40d83e49f5586346d2b209de"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.952928+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "fe0282715a329ce2c5702b5893e65cc5e54d7f67\n",
+    "output_sha256": "fdc7e4f820508af73c8d855036e4148137d78e35949130a4d0aea84b8d5e77a1"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953043+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953152+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "origin\thttps://github.com/giusepper11/mesa-switch.git (fetch)\norigin\thttps://github.com/giusepper11/mesa-switch.git (push)\n",
+    "output_sha256": "e2bb484c8c93016df315c0eaf21542eb46ff3b91c44881eeff1843a275ac9f54"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953264+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "f5337cdc947ff6d4c4196737e2c807a48f2a1fc2\n",
+    "output_sha256": "1e4b1bc17858aea9d51b339437ad41f83c1bbf04b825d1462af3f8bf2fd17cd5"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953358+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953458+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "origin\thttps://github.com/rexglue/rexglue-sdk.git (fetch)\norigin\thttps://github.com/rexglue/rexglue-sdk.git (push)\n",
+    "output_sha256": "4767646e7404a504ac8d4b1cc325bc6cd97fe28a14bcabf44703df43a6fb56ae"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "606441c90e459028a50fca352daebfc20211f890",
+      "fe0282715a329ce2c5702b5893e65cc5e54d7f67"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953572+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "d4a00ea0ab3f59afb967cc5d779e4263d237bd77",
+      "606441c90e459028a50fca352daebfc20211f890"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953663+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "diff",
+      "--stat",
+      "606441c90e459028a50fca352daebfc20211f890",
+      "fe0282715a329ce2c5702b5893e65cc5e54d7f67"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.953870+00:00",
+    "note": "Final stat check replaces redundant source copy; original full diff inspection exited 0.",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": " src/nouveau/vulkan/meson.build                   |  11 +\n src/nouveau/vulkan/nvk_cmd_buffer.c              |  16 ++\n src/nouveau/vulkan/nvk_descriptor_set_ubo.h      |  79 +++++++\n src/nouveau/vulkan/test_nvk_descriptor_set_ubo.c | 252 +++++++++++++++++++++++\n 4 files changed, 358 insertions(+)\n",
+    "output_sha256": "49f28016f76e6fa0dc520261292337f2f59ca0715778cd82acc8abeaab62a515"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "apply",
+      "--check",
+      "/tmp/project8-p1-source/patches/mesa-switch/0001-nvk-switch-resolve-set-ubo-descriptors.patch"
+    ],
+    "exit_code": 1,
+    "captured_at": "2026-10-12T02:21:55.954724+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "error: patch failed: src/nouveau/vulkan/nvk_cmd_buffer.c:1768\nerror: src/nouveau/vulkan/nvk_cmd_buffer.c: patch does not apply\n",
+    "output_sha256": "c29b2315346f0cc3c05c576633a5ae709776087dfefee77e4aad075245ebe32e"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "apply",
+      "--check",
+      "/tmp/project8-p1-source/patches/mesa-switch/0002-nak-gm20b-latency-and-flattening.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.954848+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "apply",
+      "--check",
+      "/tmp/project8-p1-source/patches/mesa-switch/0003-nvk-switch-direct-draws-and-memory-query.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.954949+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "git",
+      "apply",
+      "--check",
+      "/tmp/project8-p1-source/patches/mesa-switch/0004-switch-build-script.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955044+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0001-thp8-runtime-stack.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955215+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0002-macos-update-moltenvk-1.4.2.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955329+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0003-switch-platform-contract.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955437+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0004-switch-horizon-runtime.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955568+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0005-switch-runtime-followup.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955681+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0006-switch-exception-fp-state.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955788+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0007-switch-exception-entry-simd.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.955899+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0008-switch-native-groundwork.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956005+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0009-switch-render-target-cuts.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956115+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0010-switch-driver-pipeline-cache.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956226+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0011-switch-draw-cost-profiling.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956334+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0012-switch-cache-and-log-io.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956441+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0013-switch-resolve-to-texture.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956556+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0014-switch-depth-forward-and-1x-option.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956666+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0015-switch-specialize-texture-signs.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956776+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "apply",
+      "/tmp/project8-p1-source/patches/rexglue-sdk/0016-switch-runtime-tuning.patch"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956881+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.956975+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "bash",
+      "tools/check_patch_series.sh"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.957094+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "clean: 16 patches listed exactly once\n",
+    "output_sha256": "4790df88f4712b4d517ed2f8530ecfa3239d496a2106c753f115b2eaefab17cf"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "bash",
+      "tools/check_no_game_content.sh"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.957199+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "== checking 162 publishable files (tracked and non-ignored) ==\nclean\n",
+    "output_sha256": "78d4f01503501175dcd26f5b2ef8826472c828ef8744c8685ae96cb9a37fbb54"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tools/tests",
+      "-v"
+    ],
+    "exit_code": 1,
+    "captured_at": "2026-10-12T02:21:55.957311+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "test_completion_and_fallback (test_guest_render_wait.RenderWaitTest.test_completion_and_fallback) ... ERROR\n\n======================================================================\nERROR: test_completion_and_fallback (test_guest_render_wait.RenderWaitTest.test_completion_and_fallback)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/project8-p1-source/tools/tests/test_guest_render_wait.py\", line 125, in test_completion_and_fallback\n    subprocess.run(\n    ~~~~~~~~~~~~~~^\n        [\"c++\", \"-std=c++20\", \"-O2\", \"-pthread\", \"-I\", str(work),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n         \"-I\", str(ROOT), str(source), \"-o\", str(work / \"test\")],\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        check=True,\n        ^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/lib64/python3.14/subprocess.py\", line 555, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.14/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.14/subprocess.py\", line 1990, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'c++'\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (errors=1)\n",
+    "output_sha256": "2bc8fc82f986f2657e67127e78b42d4d8a262bb403372139557a0c85349fcedf"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:55.957406+00:00",
+    "timestamp_scope": "Ledger recovery timestamp; original check output and exit retained, exact execution time not retained.",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "cmake",
+      "--version"
+    ],
+    "exit_code": 127,
+    "captured_at": "2026-10-12T02:21:55.959037+00:00",
+    "output_text": "[Errno 2] No such file or directory: 'cmake'\n",
+    "output_sha256": "c0d2c1e70b71bbcd06d90e9fef126c8aa5211044443bc5879c9c571a7bd0dd23"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "ninja",
+      "--version"
+    ],
+    "exit_code": 127,
+    "captured_at": "2026-10-12T02:21:55.960671+00:00",
+    "output_text": "[Errno 2] No such file or directory: 'ninja'\n",
+    "output_sha256": "5abc0da99946e396b1f15edc971432cf475c0941b59589297d3d338aecba899e"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "docker",
+      "image",
+      "ls",
+      "--digests"
+    ],
+    "exit_code": 1,
+    "captured_at": "2026-10-12T02:21:56.000165+00:00",
+    "output_text": "permission denied while trying to connect to the docker API at unix:///var/run/docker.sock\n",
+    "output_sha256": "d0527b91b88a4736c47893d33c0242b10f32454ed6cacf1081bc07594358dfc5"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "bash",
+      "-c",
+      "test -f generated/default/sources.cmake && test -f generated/default/thps_p8_init.h && test -f generated/default/thps_p8_pch.h"
+    ],
+    "exit_code": 1,
+    "captured_at": "2026-10-12T02:21:56.005302+00:00",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "bash",
+      "-c",
+      "test -x /opt/devkitpro/devkitA64/bin/aarch64-none-elf-gcc && test -f /opt/devkitpro/libnx/switch.specs"
+    ],
+    "exit_code": 1,
+    "captured_at": "2026-10-12T02:21:56.010275+00:00",
+    "output_text": "",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "cwd": "/tmp/project8-p1-source",
+    "argv": [
+      "rg",
+      "-n",
+      "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER",
+      "src/game/src/native"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:56.024676+00:00",
+    "output_text": "src/game/src/native/native_renderer.cpp:1391:    constant_bindings[i].descriptorType = VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC;\nsrc/game/src/native/native_renderer.cpp:1429:      {VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC, SpirvShaderTranslator::kConstantBufferCount},\nsrc/game/src/native/native_renderer.cpp:1484:  writes[1].descriptorType = VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC;\n",
+    "output_sha256": "2b728bcf0666df743665a7de5e87764c0890d06a5a1de7274aad933a856e073a"
+  },
+  {
+    "cwd": "/tmp/project8-p1-mesa",
+    "argv": [
+      "rg",
+      "-n",
+      "DYNAMIC_UBO|UNIFORM_BUFFER_DYNAMIC|CPU_RESOLVE_UBO",
+      "src/nouveau/vulkan/nvk_cmd_buffer.c",
+      "src/nouveau/vulkan/nvk_nir_lower_descriptors.c",
+      "src/nouveau/vulkan/nvk_descriptor_set_ubo.h"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:56.037506+00:00",
+    "output_text": "src/nouveau/vulkan/nvk_cmd_buffer.c:1284:         if (cbuf->type == NVK_CBUF_TYPE_DYNAMIC_UBO) {\nsrc/nouveau/vulkan/nvk_cmd_buffer.c:1759:   case NVK_CBUF_TYPE_DYNAMIC_UBO: {\nsrc/nouveau/vulkan/nvk_cmd_buffer.c:1778:          debug_get_bool_option(\"NVK_SWITCH_CPU_RESOLVE_UBO\", false)) {\nsrc/nouveau/vulkan/nvk_nir_lower_descriptors.c:308:   case VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC: {\nsrc/nouveau/vulkan/nvk_nir_lower_descriptors.c:314:         .type = NVK_CBUF_TYPE_DYNAMIC_UBO,\nsrc/nouveau/vulkan/nvk_nir_lower_descriptors.c:707:   case VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC:\n",
+    "output_sha256": "37cc54140e527139e5960cd724eb12a0aee59e6a62cc0edca205b46fea08155c"
+  },
+  {
+    "cwd": "/tmp/project8-p1-rexglue",
+    "argv": [
+      "rg",
+      "-n",
+      "SetupEnvironment|switch_mesa_env|setenv|Initialize",
+      "src/ui/rex_app.cpp"
+    ],
+    "exit_code": 0,
+    "captured_at": "2026-10-12T02:21:56.045010+00:00",
+    "output_text": "90:REXCVAR_DEFINE_STRING(switch_mesa_env, \"\", \"Switch\",\n132:bool ReXApp::OnInitialize() {\n133:  if (!SetupEnvironment())\n140:    // Async: consumer will invoke resume when ready. OnInitialize returns\n151:bool ReXApp::SetupEnvironment() {\n207:  // Both must be decided before the GPU driver starts: nvInitialize reads the\n214:    const std::string env = REXCVAR_GET(switch_mesa_env);\n222:        setenv(item.substr(0, eq).c_str(), item.substr(eq + 1).c_str(), 1);\n223:        std::fprintf(stderr, \"[switch_mesa_env] %s\\n\", item.c_str());\n397:  config_.kernel_init = rex::kernel::InitializeKernel;\n572:        graphics_system->InitializeShaderStorage(runtime_->cache_root(), title_id, true);\n",
+    "output_sha256": "2b8868a8a019451a38c26d6a44816c9a95b5bd62103930f41db4b77ee7856269"
+  }
+]
